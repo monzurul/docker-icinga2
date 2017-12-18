@@ -89,9 +89,8 @@ EOL
 
 cat > /etc/icingaweb2/roles.ini <<EOL
 [Administrators]
-users = "admin"
+users = "icingaadmin"
 permissions = "*"
-groups = "Administrators"
 EOL
 
 mkdir /etc/icingaweb2/modules/monitoring
@@ -155,7 +154,7 @@ icinga2 feature enable ido-mysql command debug
 icingacli module enable setup
 icingacli module enable monitoring
 
-chown -R www-data:icingaweb2 enabledModules
+chown -R www-data:icingaweb2 /etc/icingaweb2/enabledModules
 
 if [ ! -f "/etc/icinga2/pki/$(hostname).key" ]; then
 	icinga2 node setup --master

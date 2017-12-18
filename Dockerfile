@@ -48,3 +48,5 @@ RUN ["/bin/bash", "/tmp/icinga2-setup.sh"]
 
 EXPOSE 80 443 5665
 
+ENTRYPOINT service rc.local start && bash
+
