@@ -1,5 +1,5 @@
 # This dockerfile install and configure icinga2 and icingaweb2
-# Icinga2 installation source code: https://github.com/monzurul/icinga2
+# Icinga2 installation source code: https://github.com/monzurul/docker-icinga2
 
 FROM ubuntu:16.04
 
