@@ -9,4 +9,6 @@ Command for running docker image:
 
 "docker run -itd -p 82:80 ubuntu16/icinga2:v1.0 /bin/bash" (run in the backgroud with port 82 forwarding to local environment)
 
+Now it is possible to browse from local environment: http://localhost:82/icinga/ (icingaadmin:icingaadmin)
+
     
