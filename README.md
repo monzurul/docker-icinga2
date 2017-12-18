@@ -11,6 +11,5 @@ Command for running docker image:
 
 Now it is possible to browse from local environment: http://localhost:82/icinga/ (icingaadmin:icingaadmin)
 
-Now it is possible to browse from local environment: http://localhost:82/icinga/ (icingaadmin:icingaadmin)
 
     
